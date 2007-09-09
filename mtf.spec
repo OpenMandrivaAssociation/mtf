@@ -1,11 +1,7 @@
-%define	name	mtf
-%define version 0.2.1
-%define release %mkrel 7
-
 Summary:	A Linux reader for the Microsoft Tape Format used by NT Backup
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		mtf
+Version:	0.2.1
+Release:	%mkrel 8
 License:	GPL
 Group:		Archiving/Backup
 URL:		http://www.layton-graphics.com/mtf/
@@ -35,5 +31,3 @@ rm -fr $RPM_BUILD_ROOT
 %defattr(-,root,root,755)
 %doc README
 %{_bindir}/mtf
-
-
