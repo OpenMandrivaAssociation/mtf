@@ -6,7 +6,6 @@ License:	GPL
 Group:		Archiving/Backup
 URL:		http://www.layton-graphics.com/mtf/
 Source:		%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 A bare-bones reader for Microsoft Tape Format tapes.
