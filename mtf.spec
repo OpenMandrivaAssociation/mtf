@@ -1,7 +1,7 @@
 Summary:	A Linux reader for the Microsoft Tape Format used by NT Backup
 Name:		mtf
 Version:	0.2.1
-Release:	%mkrel 10
+Release:	%mkrel 11
 License:	GPL
 Group:		Archiving/Backup
 URL:		http://www.layton-graphics.com/mtf/
