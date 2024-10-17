@@ -4,7 +4,7 @@ Version:	0.2.1
 Release:	12
 License:	GPL
 Group:		Archiving/Backup
-URL:		http://www.layton-graphics.com/mtf/
+URL:		https://www.layton-graphics.com/mtf/
 Source:		%{name}-%{version}.tar.bz2
 Patch0:		mtf-glibc28.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
