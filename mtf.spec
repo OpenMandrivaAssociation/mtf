@@ -9,6 +9,7 @@ Source:		%{name}-%{version}.tar.bz2
 Patch0:		mtf-glibc28.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	make
 %description
 A bare-bones reader for Microsoft Tape Format tapes.
 This program is based on Microsoft Tape Format Specification Version 1.00a.
